@@ -1,65 +1,40 @@
-# Creating a Token in Solidity
+# CREATE YOUR OWN TOKEN USING SOLIDITY
+This Solidity Program is a simple program that demonstrates the basic functionality of the Solidity Programming Language.
+In this Project, we will create our own token using Solidity Programming Language.
 
-This repository provides an example implementation of creating a token using the Solidity programming language. Solidity is a statically-typed programming language used for developing smart contracts on various blockchain platforms, with Ethereum being the most popular one.
 
-## Table of Contents
+## Description
+The following program represents a basic token contract that can be used to create and manage custom tokens on the Ethereum blockchain. It allows for the minting of tokens to specific addresses, increasing the total supply, and the burning of tokens from addresses, reducing the total supply. The contract also keeps track of token balances for different addresses. This program serves as a foundation for building and deploying custom tokens with basic functionality.
 
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Token Features](#token-features)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
 
-## Overview
+## Getting Started
 
-This repository demonstrates how to create a basic ERC-20 compliant token using Solidity. The ERC-20 standard defines a set of rules and functions that a token contract must implement in order to be compatible with other applications, wallets, and exchanges.
+### Installing
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-## Prerequisites
+### Executing program
+1. Create a file on Remix
+  * To start building a smart contract, click on New File and name it MyToken.sol.
 
-Before getting started, ensure that you have the following prerequisites:
+2. Upload a pre-built smart contract into the IDE
+  * Copy and paste the Smart Contract code provided into the newly created MyToken.sol file.
 
-- Solidity compiler (e.g., [solc](https://solidity.readthedocs.io/en/latest/installing-solidity.html))
-- Development environment (e.g., [Remix IDE](https://remix.ethereum.org/), [Truffle](https://www.trufflesuite.com/truffle), or [Hardhat](https://hardhat.org/))
-- Testing framework (e.g., [Truffle](https://www.trufflesuite.com/truffle), [Hardhat](https://hardhat.org/), or [ethers.js](https://github.com/ethers-io/ethers.js/))
+3. Compile the smart contract
+   1. Go to the Solidity Compiler tab (below the search button).
+   2. Select compiler version to 0.5.10.
+   3. Now, compile MyToken.sol.
+   4. After successful compilation, it will show a green tick mark on the Compiler tab button.
 
-## Token Features
+4. Deploy the smart contract
+ * Once MetaMask is connected to Remix, the Deploy transaction would generate another MetaMask popup that requires transaction confirmation. Simply confirm the transaction!
 
-The example token implemented in this repository includes the following features:
+5. Verify the smart contract.
 
-- **Name**: The name of the token.
-- **Symbol**: The symbol (ticker) used to represent the token.
-- **Decimals**: The number of decimal places the token can be divided into.
-- **Total Supply**: The total number of tokens in circulation.
-- **Balance**: The balance of each token holder.
-- **Transfer**: The ability to transfer tokens between addresses.
-- **Approve/Allowance**: The ability to approve an address to spend tokens on behalf of another address.
-- **Transfer From**: The ability to transfer tokens on behalf of another address.
 
-## Installation
+## Author
+@bhavyassehgal
+Twitter - https://twitter.com/BhavyaaSehgal
 
-To install and use the token contract, follow these steps:
-
-1. Clone this repository: `git clone https://github.com/your-username/token-repo.git`
-2. Compile the Solidity contract using your preferred development environment.
-3. Deploy the contract to your desired Ethereum network (e.g., local testnet, Ropsten, or Mainnet).
-
-## Usage
-
-Once the contract is deployed, you can interact with the token using various methods provided by the ERC-20 standard. Some common interactions include:
-
-- Checking token balances
-- Transferring tokens between addresses
-- Approving an address to spend tokens on behalf of another address
-- Transferring tokens on behalf of another address
-
-Refer to the contract's documentation or the ERC-20 standard for detailed information on the available methods and their usage.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the terms of the license.
+This project is licensed under the MIT License - see the LICENSE.md file for details
