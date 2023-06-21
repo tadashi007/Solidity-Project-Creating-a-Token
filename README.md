@@ -32,8 +32,8 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 
 ## Author
-@bhavyassehgal
-Twitter - https://twitter.com/BhavyaaSehgal
+@abhijithvs
+Twitter - https://twitter.com/iamtadashibitch
 
 
 ## License
